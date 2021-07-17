@@ -8,7 +8,7 @@
     <version>4.6.2</version>
     
     <properties>
-        <sosog.version>4.6.2</sosog.version>
+        <web.version>4.6.2</web.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -195,23 +195,23 @@
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-framework</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.sosog</groupId>
+                <artifactId>web-framework</artifactId>
+                <version>${web.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.sosog</groupId>
+                <artifactId>web-system</artifactId>
+                <version>${web.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.sosog</groupId>
+                <artifactId>web-common</artifactId>
+                <version>${web.version}</version>
             </dependency>
 
         </dependencies>
