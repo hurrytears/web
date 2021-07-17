@@ -17,7 +17,7 @@ import com.sosog.common.utils.Threads;
 /**
  * 自定义任务调度器完成
  * 
- * @author ruoyi
+ * @author web
  */
 @Component
 public class SpringSessionValidationScheduler implements SessionValidationScheduler

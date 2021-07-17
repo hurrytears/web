@@ -7,11 +7,6 @@ import com.sosog.common.core.domain.entity.SysDictData;
 import com.sosog.system.service.ISysDictDataService;
 import com.sosog.system.service.ISysDictTypeService;
 
-/**
- * RuoYi首创 html调用 thymeleaf 实现字典读取
- * 
- * @author ruoyi
- */
 @Service("dict")
 public class DictService
 {

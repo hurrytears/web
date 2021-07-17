@@ -3,7 +3,7 @@ package com.sosog.common.exception;
 /**
  * 工具类异常
  * 
- * @author ruoyi
+ * @author web
  */
 public class UtilException extends RuntimeException
 {

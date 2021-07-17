@@ -7,7 +7,7 @@ import com.sosog.common.constant.Constants;
 /**
  * VelocityEngine工厂
  * 
- * @author ruoyi
+ * @author web
  */
 public class VelocityInitializer
 {

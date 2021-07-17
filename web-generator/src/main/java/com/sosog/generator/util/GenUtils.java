@@ -11,7 +11,7 @@ import com.sosog.generator.domain.GenTableColumn;
 /**
  * 代码生成器 工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class GenUtils
 {

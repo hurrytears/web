@@ -3,7 +3,7 @@ package com.sosog.common.constant;
 /**
  * 用户常量信息
  * 
- * @author ruoyi
+ * @author web
  */
 public class UserConstants
 {

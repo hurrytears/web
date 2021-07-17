@@ -8,7 +8,7 @@ import com.sosog.common.config.datasource.DynamicDataSourceContextHolder;
 /**
  * 动态数据源
  * 
- * @author ruoyi
+ * @author web
  */
 public class DynamicDataSource extends AbstractRoutingDataSource
 {

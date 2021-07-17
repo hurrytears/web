@@ -11,7 +11,7 @@ import com.sosog.generator.service.IGenTableColumnService;
 /**
  * 业务字段 服务层实现
  * 
- * @author ruoyi
+ * @author web
  */
 @Service
 public class GenTableColumnServiceImpl implements IGenTableColumnService

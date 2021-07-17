@@ -7,14 +7,14 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.constant.Constants;
 import com.sosog.framework.interceptor.RepeatSubmitInterceptor;
 
 /**
  * 通用配置
  * 
- * @author ruoyi
+ * @author web
  */
 @Configuration
 public class ResourcesConfig implements WebMvcConfigurer
@@ -41,7 +41,7 @@ public class ResourcesConfig implements WebMvcConfigurer
     public void addResourceHandlers(ResourceHandlerRegistry registry)
     {
         /** 本地文件上传路径 */
-        registry.addResourceHandler(Constants.RESOURCE_PREFIX + "/**").addResourceLocations("file:" + RuoYiConfig.getProfile() + "/");
+        registry.addResourceHandler(Constants.RESOURCE_PREFIX + "/**").addResourceLocations("file:" + WebConfig.getProfile() + "/");
 
         /** swagger配置 */
         registry.addResourceHandler("/swagger-ui/**").addResourceLocations("classpath:/META-INF/resources/webjars/springfox-swagger-ui/");

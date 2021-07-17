@@ -33,7 +33,7 @@ PAUSE
 		PAUSE
 	)
 
-start javaw -jar %JAVA_OPTS% ruoyi-admin.jar
+start javaw -jar %JAVA_OPTS% web-admin.jar
 
 echo  starting……
 echo  Start %AppName% success...

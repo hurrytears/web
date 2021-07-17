@@ -27,7 +27,6 @@ import com.sosog.web.controller.demo.domain.UserOperateModel;
 /**
  * 操作控制
  * 
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/demo/operate")

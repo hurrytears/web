@@ -3,14 +3,14 @@ package com.sosog.common.utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSONObject;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.constant.Constants;
 import com.sosog.common.utils.http.HttpUtils;
 
 /**
  * 获取地址类
  * 
- * @author ruoyi
+ * @author web
  */
 public class AddressUtils
 {
@@ -30,7 +30,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (RuoYiConfig.isAddressEnabled())
+        if (WebConfig.isAddressEnabled())
         {
             try
             {

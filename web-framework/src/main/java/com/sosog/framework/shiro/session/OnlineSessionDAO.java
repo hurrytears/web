@@ -15,7 +15,7 @@ import com.sosog.framework.shiro.service.SysShiroService;
 /**
  * 针对自定义的ShiroSession的db操作
  * 
- * @author ruoyi
+ * @author web
  */
 public class OnlineSessionDAO extends EnterpriseCacheSessionDAO
 {

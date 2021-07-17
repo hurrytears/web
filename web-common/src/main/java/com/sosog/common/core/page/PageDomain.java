@@ -5,7 +5,7 @@ import com.sosog.common.utils.StringUtils;
 /**
  * 分页数据
  * 
- * @author ruoyi
+ * @author web
  */
 public class PageDomain
 {

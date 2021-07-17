@@ -12,7 +12,7 @@ import com.sosog.common.utils.spring.SpringUtils;
 /**
  * Cache工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class CacheUtils
 {

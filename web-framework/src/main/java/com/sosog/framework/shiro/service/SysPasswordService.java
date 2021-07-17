@@ -20,7 +20,7 @@ import com.sosog.framework.manager.factory.AsyncFactory;
 /**
  * 登录密码方法
  * 
- * @author ruoyi
+ * @author web
  */
 @Component
 public class SysPasswordService

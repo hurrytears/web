@@ -8,7 +8,7 @@ import com.sosog.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  * 
- * @author ruoyi
+ * @author web
  */
 public class SysDept extends BaseEntity
 {

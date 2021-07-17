@@ -25,7 +25,7 @@ import com.sosog.common.utils.sql.SqlUtil;
 /**
  * web层通用数据处理
  * 
- * @author ruoyi
+ * @author web
  */
 public class BaseController
 {

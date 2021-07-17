@@ -10,7 +10,7 @@ import com.sosog.common.core.domain.BaseEntity;
 /**
  * 角色表 sys_role
  * 
- * @author ruoyi
+ * @author web
  */
 public class SysRole extends BaseEntity
 {

@@ -9,7 +9,7 @@ import com.sosog.common.enums.OnlineStatus;
 /**
  * 当前在线会话 sys_user_online
  * 
- * @author ruoyi
+ * @author web
  */
 public class SysUserOnline extends BaseEntity
 {

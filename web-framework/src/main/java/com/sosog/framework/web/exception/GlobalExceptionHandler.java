@@ -18,7 +18,7 @@ import com.sosog.common.utils.security.PermissionUtils;
 /**
  * 全局异常处理器
  * 
- * @author ruoyi
+ * @author web
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler

@@ -26,7 +26,7 @@ import com.sosog.common.utils.ShiroUtils;
 /**
  * 登录帐号控制过滤器
  * 
- * @author ruoyi
+ * @author web
  */
 public class KickoutSessionFilter extends AccessControlFilter
 {

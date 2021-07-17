@@ -3,7 +3,7 @@ package com.sosog.common.exception.user;
 /**
  * 用户错误记数异常类
  * 
- * @author ruoyi
+ * @author web
  */
 public class UserPasswordRetryLimitCountException extends UserException
 {

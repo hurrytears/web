@@ -3,7 +3,7 @@ package com.sosog.common.enums;
 /**
  * 操作状态
  * 
- * @author ruoyi
+ * @author web
  */
 public enum BusinessStatus
 {

@@ -10,14 +10,14 @@ import java.util.Arrays;
 import org.apache.poi.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.constant.Constants;
 import com.sosog.common.utils.StringUtils;
 
 /**
  * 图片处理工具类
  *
- * @author ruoyi
+ * @author web
  */
 public class ImageUtils
 {
@@ -81,7 +81,7 @@ public class ImageUtils
             else
             {
                 // 本机地址
-                String localPath = RuoYiConfig.getProfile();
+                String localPath = WebConfig.getProfile();
                 String downloadPath = localPath + StringUtils.substringAfter(url, Constants.RESOURCE_PREFIX);
                 in = new FileInputStream(downloadPath);
             }

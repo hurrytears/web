@@ -6,7 +6,7 @@ import com.sosog.common.utils.StringUtils;
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author web
  */
 public class BaseException extends RuntimeException
 {

@@ -6,11 +6,11 @@ import org.springframework.stereotype.Component;
 /**
  * 全局配置类
  * 
- * @author ruoyi
+ * @author web
  */
 @Component
-@ConfigurationProperties(prefix = "ruoyi")
-public class RuoYiConfig
+@ConfigurationProperties(prefix = "web")
+public class WebConfig
 {
     /** 项目名称 */
     private static String name;
@@ -37,7 +37,7 @@ public class RuoYiConfig
 
     public void setName(String name)
     {
-        RuoYiConfig.name = name;
+        WebConfig.name = name;
     }
 
     public static String getVersion()
@@ -47,7 +47,7 @@ public class RuoYiConfig
 
     public void setVersion(String version)
     {
-        RuoYiConfig.version = version;
+        WebConfig.version = version;
     }
 
     public static String getCopyrightYear()
@@ -57,7 +57,7 @@ public class RuoYiConfig
 
     public void setCopyrightYear(String copyrightYear)
     {
-        RuoYiConfig.copyrightYear = copyrightYear;
+        WebConfig.copyrightYear = copyrightYear;
     }
 
     public static boolean isDemoEnabled()
@@ -67,7 +67,7 @@ public class RuoYiConfig
 
     public void setDemoEnabled(boolean demoEnabled)
     {
-        RuoYiConfig.demoEnabled = demoEnabled;
+        WebConfig.demoEnabled = demoEnabled;
     }
 
     public static String getProfile()
@@ -77,7 +77,7 @@ public class RuoYiConfig
 
     public void setProfile(String profile)
     {
-        RuoYiConfig.profile = profile;
+        WebConfig.profile = profile;
     }
 
     public static boolean isAddressEnabled()
@@ -87,7 +87,7 @@ public class RuoYiConfig
 
     public void setAddressEnabled(boolean addressEnabled)
     {
-        RuoYiConfig.addressEnabled = addressEnabled;
+        WebConfig.addressEnabled = addressEnabled;
     }
 
     /**

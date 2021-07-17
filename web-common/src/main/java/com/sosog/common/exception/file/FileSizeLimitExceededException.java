@@ -3,7 +3,7 @@ package com.sosog.common.exception.file;
 /**
  * 文件名大小限制异常类
  * 
- * @author ruoyi
+ * @author web
  */
 public class FileSizeLimitExceededException extends FileException
 {

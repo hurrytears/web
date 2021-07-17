@@ -6,7 +6,7 @@ import com.sosog.system.domain.SysUserPost;
 /**
  * 用户与岗位关联表 数据层
  * 
- * @author ruoyi
+ * @author web
  */
 public interface SysUserPostMapper
 {

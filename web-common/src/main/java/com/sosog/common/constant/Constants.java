@@ -3,7 +3,7 @@ package com.sosog.common.constant;
 /**
  * 通用常量信息
  * 
- * @author ruoyi
+ * @author web
  */
 public class Constants
 {

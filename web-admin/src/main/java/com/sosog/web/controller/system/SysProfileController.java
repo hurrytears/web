@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import com.sosog.common.annotation.Log;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.constant.UserConstants;
 import com.sosog.common.core.controller.BaseController;
 import com.sosog.common.core.domain.AjaxResult;
@@ -28,7 +28,7 @@ import com.sosog.system.service.ISysUserService;
 /**
  * 个人信息 业务处理
  * 
- * @author ruoyi
+ * @author web
  */
 @Controller
 @RequestMapping("/system/user/profile")
@@ -168,7 +168,7 @@ public class SysProfileController extends BaseController
         {
             if (!file.isEmpty())
             {
-                String avatar = FileUploadUtils.upload(RuoYiConfig.getAvatarPath(), file);
+                String avatar = FileUploadUtils.upload(WebConfig.getAvatarPath(), file);
                 currentUser.setAvatar(avatar);
                 if (userService.updateUserInfo(currentUser) > 0)
                 {

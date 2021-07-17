@@ -14,7 +14,7 @@ import com.sosog.common.utils.MessageUtils;
 /**
  * permission 工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class PermissionUtils
 {

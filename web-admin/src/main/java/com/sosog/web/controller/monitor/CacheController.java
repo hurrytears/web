@@ -14,7 +14,6 @@ import com.sosog.framework.web.service.CacheService;
 /**
  * 缓存监控
  * 
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/cache")

@@ -5,7 +5,7 @@ import com.sosog.common.utils.StringUtils;
 /**
  * 字符串格式化
  * 
- * @author ruoyi
+ * @author web
  */
 public class StrFormatter
 {

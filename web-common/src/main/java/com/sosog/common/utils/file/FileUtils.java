@@ -16,7 +16,7 @@ import com.sosog.common.utils.StringUtils;
 /**
  * 文件处理工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class FileUtils
 {

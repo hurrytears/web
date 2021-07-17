@@ -12,7 +12,7 @@ import com.sosog.common.utils.bean.BeanUtils;
 /**
  * shiro 工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class ShiroUtils
 {

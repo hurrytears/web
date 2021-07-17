@@ -13,7 +13,7 @@ import com.sosog.common.xss.XssFilter;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author web
  */
 @Configuration
 public class FilterConfig

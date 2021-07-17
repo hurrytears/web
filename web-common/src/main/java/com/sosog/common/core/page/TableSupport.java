@@ -6,7 +6,7 @@ import com.sosog.common.utils.ServletUtils;
 /**
  * 表格数据处理
  * 
- * @author ruoyi
+ * @author web
  */
 public class TableSupport
 {

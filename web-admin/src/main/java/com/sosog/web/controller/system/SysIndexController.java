@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.constant.ShiroConstants;
 import com.sosog.common.core.controller.BaseController;
 import com.sosog.common.core.domain.AjaxResult;
@@ -30,7 +30,7 @@ import com.sosog.system.service.ISysMenuService;
 /**
  * 首页 业务处理
  * 
- * @author ruoyi
+ * @author web
  */
 @Controller
 public class SysIndexController extends BaseController
@@ -57,8 +57,8 @@ public class SysIndexController extends BaseController
         mmap.put("sideTheme", configService.selectConfigByKey("sys.index.sideTheme"));
         mmap.put("skinName", configService.selectConfigByKey("sys.index.skinName"));
         mmap.put("ignoreFooter", configService.selectConfigByKey("sys.index.ignoreFooter"));
-        mmap.put("copyrightYear", RuoYiConfig.getCopyrightYear());
-        mmap.put("demoEnabled", RuoYiConfig.isDemoEnabled());
+        mmap.put("copyrightYear", WebConfig.getCopyrightYear());
+        mmap.put("demoEnabled", WebConfig.isDemoEnabled());
         mmap.put("isDefaultModifyPwd", initPasswordIsModify(user.getPwdUpdateDate()));
         mmap.put("isPasswordExpired", passwordIsExpiration(user.getPwdUpdateDate()));
 
@@ -126,7 +126,7 @@ public class SysIndexController extends BaseController
     @GetMapping("/system/main")
     public String main(ModelMap mmap)
     {
-        mmap.put("version", RuoYiConfig.getVersion());
+        mmap.put("version", WebConfig.getVersion());
         return "main";
     }
 

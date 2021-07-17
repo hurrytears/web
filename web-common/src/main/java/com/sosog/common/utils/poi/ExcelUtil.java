@@ -49,7 +49,7 @@ import com.sosog.common.annotation.Excel;
 import com.sosog.common.annotation.Excel.ColumnType;
 import com.sosog.common.annotation.Excel.Type;
 import com.sosog.common.annotation.Excels;
-import com.sosog.common.config.RuoYiConfig;
+import com.sosog.common.config.WebConfig;
 import com.sosog.common.core.domain.AjaxResult;
 import com.sosog.common.core.text.Convert;
 import com.sosog.common.exception.BusinessException;
@@ -63,7 +63,7 @@ import com.sosog.common.utils.reflect.ReflectUtils;
 /**
  * Excel相关处理
  * 
- * @author ruoyi
+ * @author web
  */
 public class ExcelUtil<T>
 {
@@ -937,7 +937,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = RuoYiConfig.getDownloadPath() + filename;
+        String downloadPath = WebConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

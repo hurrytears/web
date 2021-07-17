@@ -21,7 +21,7 @@ import com.sosog.system.service.ISysDeptService;
 /**
  * 部门管理 服务实现
  * 
- * @author ruoyi
+ * @author web
  */
 @Service
 public class SysDeptServiceImpl implements ISysDeptService

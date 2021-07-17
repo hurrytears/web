@@ -10,7 +10,7 @@ import com.sosog.framework.shiro.session.OnlineSessionDAO;
 /**
  * 同步Session数据到Db
  * 
- * @author ruoyi
+ * @author web
  */
 public class SyncOnlineSessionFilter extends PathMatchingFilter
 {

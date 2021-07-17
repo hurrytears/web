@@ -18,7 +18,6 @@ import com.sosog.common.utils.StringUtils;
 /**
  * 表单相关
  * 
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/demo/form")
@@ -313,7 +312,7 @@ public class DemoFormController
     @ResponseBody
     public AjaxResult collection()
     {
-        String[] array = { "ruoyi 1", "ruoyi 2", "ruoyi 3", "ruoyi 4", "ruoyi 5" };
+        String[] array = { "web 1", "web 2", "web 3", "web 4", "web 5" };
         AjaxResult ajax = new AjaxResult();
         ajax.put("value", array);
         return ajax;

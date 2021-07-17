@@ -181,16 +181,16 @@
             
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-quartz</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.sosog</groupId>
+                <artifactId>web-quartz</artifactId>
+                <version>${web.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-generator</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.sosog</groupId>
+                <artifactId>web-generator</artifactId>
+                <version>${web.version}</version>
             </dependency>
 
             <!-- 核心模块-->

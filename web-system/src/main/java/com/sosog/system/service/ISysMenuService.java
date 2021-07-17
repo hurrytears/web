@@ -11,7 +11,7 @@ import com.sosog.common.core.domain.entity.SysUser;
 /**
  * 菜单 业务层
  * 
- * @author ruoyi
+ * @author web
  */
 public interface ISysMenuService
 {

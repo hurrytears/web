@@ -26,7 +26,6 @@ import com.sosog.system.service.ISysMenuService;
 /**
  * 菜单信息
  * 
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/system/menu")

@@ -11,7 +11,7 @@ import com.sosog.common.core.domain.BaseEntity;
 /**
  * 字典数据表 sys_dict_data
  * 
- * @author ruoyi
+ * @author web
  */
 public class SysDictData extends BaseEntity
 {

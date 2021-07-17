@@ -12,7 +12,7 @@ import com.sosog.common.utils.Threads;
 /**
  * 线程池配置
  *
- * @author ruoyi
+ * @author web
  **/
 @Configuration
 public class ThreadPoolConfig

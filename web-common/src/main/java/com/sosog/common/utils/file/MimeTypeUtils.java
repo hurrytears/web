@@ -3,7 +3,7 @@ package com.sosog.common.utils.file;
 /**
  * 媒体类型工具类
  * 
- * @author ruoyi
+ * @author web
  */
 public class MimeTypeUtils
 {

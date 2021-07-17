@@ -11,7 +11,6 @@ import com.sosog.framework.web.domain.Server;
 /**
  * 服务器监控
  * 
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/server")

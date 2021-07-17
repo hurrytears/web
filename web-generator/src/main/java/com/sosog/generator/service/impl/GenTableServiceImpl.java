@@ -40,7 +40,7 @@ import com.sosog.generator.util.VelocityUtils;
 /**
  * 业务 服务层实现
  * 
- * @author ruoyi
+ * @author web
  */
 @Service
 public class GenTableServiceImpl implements IGenTableService

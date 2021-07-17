@@ -3,7 +3,7 @@ package com.sosog.common.core.domain;
 /**
  * Tree基类
  * 
- * @author ruoyi
+ * @author web
  */
 public class TreeEntity extends BaseEntity
 {

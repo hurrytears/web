@@ -6,7 +6,7 @@ import com.sosog.generator.domain.GenTableColumn;
 /**
  * 业务字段 服务层
  * 
- * @author ruoyi
+ * @author web
  */
 public interface IGenTableColumnService
 {

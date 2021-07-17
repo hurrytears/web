@@ -3,7 +3,7 @@ package com.sosog.common.constant;
 /**
  * 任务调度通用常量
  * 
- * @author ruoyi
+ * @author web
  */
 public class ScheduleConstants
 {
