@@ -1,9 +1,8 @@
 #!/bin/sh
-# author ruoyi
-# ./ry.sh start 启动
-# ./ry.sh stop 停止
-# ./ry.sh restart 重启
-# ./ry.sh status 状态
+# ./web.sh start 启动
+# ./web.sh stop 停止
+# ./web.sh restart 重启
+# ./web.sh status 状态
 AppName=web-admin.jar
 
 # JVM参数

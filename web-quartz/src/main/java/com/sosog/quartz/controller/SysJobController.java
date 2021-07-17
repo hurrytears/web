@@ -27,8 +27,6 @@ import com.sosog.quartz.util.CronUtils;
 
 /**
  * 调度任务信息操作处理
- * 
- * @author web
  */
 @Controller
 @RequestMapping("/monitor/job")

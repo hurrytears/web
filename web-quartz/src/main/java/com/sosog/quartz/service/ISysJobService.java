@@ -7,8 +7,6 @@ import com.sosog.quartz.domain.SysJob;
 
 /**
  * 定时任务调度信息信息 服务层
- * 
- * @author web
  */
 public interface ISysJobService
 {

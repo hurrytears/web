@@ -13,20 +13,30 @@ public class Scan {
 
     static void find(File dir) throws IOException {
         if(dir.isDirectory()){
-            for(File f: dir.listFiles()){
+            if(dir.getName().contains("ruoyi")){
+                System.out.println(dir.getPath());
+            }
+            for(File f: dir.listFiles(new FileFilter() {
+                @Override
+                public boolean accept(File pathname) {
+                    if(dir.getPath().contains(".git") || dir.getPath().contains("\\target\\")
+                            || dir.getPath().contains(".idea")
+                            || dir.getPath().contains("Scan")
+                            ){
+                        return false;
+                    }else {
+                        return true;
+                    }
+                }
+            })){
                 find(f);
             }
         }else {
             br = new BufferedReader(new FileReader(dir));
             String line;
             while( (line = br.readLine()) != null) {
-                if (line.toLowerCase().contains("web") && !line.toLowerCase().contains("author")
-                        && !dir.getPath().contains(".css")
-                        && !dir.getPath().contains(".git")
-                        && !dir.getPath().contains(".html")
-                        && !dir.getPath().contains(".js")
-                        ){
-                    System.out.println(dir.getPath() + "---------------->" + line);
+                if (line.contains("若依")){
+                    //System.out.println("sed -i 's/若依/东皇/g' /"+dir.getAbsolutePath().replaceAll("\\\\","/").replaceAll(":",""));
                 }
             }
         }
